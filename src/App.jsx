@@ -1,55 +1,41 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Card from './components/Card';
+import ProductList from './pages/product/product_list/Product_list'
+import Card from './components/Card'
+/**
+ * 
+ * 
+  JavaScript Arrays
+  Rendering Arrays
+  JavaScript Array methods
+
+  Props
+  Destructuring Props
+  Array Map
+  Key prop
+  Arrow function 
+ * 
+ */
+  // const number = [1, 2, 3]
+  const newNumber = number.map(function(value){
+    return <Card key={value} number={value} />
+  })
+
+  const props = {
+          number: 1
+      }
+  // const fruits = ["apple","mango", "banana"];
+  // const myFruits = fruits.map(function(fruit){
+  //     return <h1 key={fruit}>{"I love" + fruit}</h1>;
+  // })
+  
 
 function App() {
-  const [count, setCount] = useState(0);
 
-  // const data = [
-  //     {
-  //       name: "darwin",
-  //       number: 1
-  //     },
-  //     {
-  //       name: "jhon",
-  //       number: 2
-  //     },
-  //     {
-  //       name: "mike",
-  //       number: 3
-  //     }
-  // ]
-
-  // const cardList = data.map((data)=>(<Card name={data.name} number={data.number}/>))
-  
   return (
-    <>
-      {/* {cardList} */}
-      <Card name="darwin" number={1} age={26}/>
+    <div className = 'card-container'>
+     {props.number}
+    </div>
 
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
   )
 }
 

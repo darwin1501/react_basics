@@ -1,11 +1,13 @@
 function Card(props){
-    console.log(props)
+
     return(
-        <h1>
-            This is Card {props.number}
-            <p>Hello {props.name}</p>
-            <p>I&apos;am {props.age} years old</p>
-        </h1>
+        <>
+            <div className="card">
+                <h1>
+                    This is Card {props.number}
+                </h1>
+            </div>
+        </>
     )
 }
 

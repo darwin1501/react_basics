@@ -1,0 +1,47 @@
+[
+    {
+        "id": 121,
+        "type": "accesories",
+        "name" : "HTD Multifunctional Stand Cp Holder",
+        "picture" : "/product_img/HTD_Multifunctional_Stand_Cp_Holder.jpeg",
+        "price": 28
+
+    },
+    {
+        "id": 122,
+        "type": "gadget",
+        "name" : "Mini_keyboard",
+        "price": 136,
+        "picture": "/product_img/Mini_keyboard.jpeg"
+    },
+    {
+        "id": 233,
+        "type": "accesories",
+        "name" : "Stand for Apple Smart Watch Charger",
+        "price": 139,
+        "picture" : "/product_img/Stand_for_Apple_Smart_Watch_Charger.jpeg"
+
+    },
+    {
+        "id": 234,
+        "type": "gadget",
+        "name" : "USB 2.0 Mini Speaker",
+        "price": 78,
+        "picture" : "/product_img/USB_2.0_Mini_Speaker.jpeg"
+    },
+    {
+        "id": 233,
+        "type": "accesories",
+        "name" : "Stand for Apple Smart Watch Charger",
+        "price": 139,
+        "picture" : "/product_img/Stand_for_Apple_Smart_Watch_Charger.jpeg"
+
+    },
+    {
+        "id": 234,
+        "type": "gadget",
+        "name" : "USB 2.0 Mini Speaker",
+        "price": 78,
+        "picture" : "/product_img/USB_2.0_Mini_Speaker.jpeg"
+    }
+]

@@ -35,6 +35,19 @@
 
 .card {
   padding: 2em;
+  background-color: rgb(120, 95, 248);
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.card-container{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
 }
 
 .read-the-docs {
