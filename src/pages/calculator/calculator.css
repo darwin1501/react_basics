@@ -1,0 +1,26 @@
+.calculator-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+  }
+.calculator-display{
+    background-color: gray;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+  
+  .number-btn {
+    flex: 0 1 auto; /* shorthand for flex-grow, flex-shrink, flex-basis */
+    width: calc(33.333% - 10px); /* Adjust margin if needed */
+    margin: 5px; /* Adjust margin as needed */
+    background-color: #ddd; /* Just for visualization */
+    box-sizing: border-box; /* Include padding and border in the width */
+    padding: 20px;
+  }
+  
+  /* Adjust width percentage accordingly to accommodate three items per row */
+  

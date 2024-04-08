@@ -6,7 +6,7 @@ export default function Product(props){
         objectFit: "contain",
         borderRadius: "10px"
     }
- 
+    
     return (
         <div className={styles.card}>
             <div className={styles.img_container}>
@@ -19,6 +19,7 @@ export default function Product(props){
                 />
             </div>  
             <h3>{props.name}</h3>
+            {/* math calculations */}
             <h2>{props.price} Pesos</h2>
         </div>
     )

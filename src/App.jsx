@@ -1,42 +1,13 @@
 import './App.css'
-import ProductList from './pages/product/product_list/Product_list'
-import Card from './components/Card'
-/**
- * 
- * 
-  JavaScript Arrays
-  Rendering Arrays
-  JavaScript Array methods
+import ChangeTheText from './pages/change_the_text/change_the_text';
+import ConditionalOperator from './pages/conditional_operator/conditional_operator';
+import InputDisplay from './pages/input_display/input_display';
 
-  Props
-  Destructuring Props
-  Array Map
-  Key prop
-  Arrow function 
- * 
- */
-  // const number = [1, 2, 3]
-  const newNumber = number.map(function(value){
-    return <Card key={value} number={value} />
-  })
-
-  const props = {
-          number: 1
-      }
-  // const fruits = ["apple","mango", "banana"];
-  // const myFruits = fruits.map(function(fruit){
-  //     return <h1 key={fruit}>{"I love" + fruit}</h1>;
-  // })
-  
 
 function App() {
-
   return (
-    <div className = 'card-container'>
-     {props.number}
-    </div>
-
-  )
+    <ConditionalOperator />
+  );
 }
 
 export default App
