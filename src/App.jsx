@@ -1,13 +1,12 @@
 import './App.css'
-import ChangeTheText from './pages/change_the_text/change_the_text';
-import ConditionalOperator from './pages/conditional_operator/conditional_operator';
-import InputDisplay from './pages/input_display/input_display';
+import RenderP from './pages/quiz/render_p_cond'
+
 
 
 function App() {
   return (
-    <ConditionalOperator />
-  );
+   <RenderP />
+  )
 }
 
 export default App
