@@ -1,11 +1,11 @@
 import './App.css'
-import RenderP from './pages/quiz/render_p_cond'
+import ComplexStateArray from './pages/complex_state/complex_state_array'
 
 
 
 function App() {
   return (
-   <RenderP />
+    <ComplexStateArray />
   )
 }
 
